@@ -36,6 +36,8 @@ export class AwsCxRegionLatencyLabStack extends Stack {
     })
 
     role.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonSSMManagedInstanceCore'))
+    role.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName('CloudWatchAgentAdminPolicy'))
+    
 
 
     const asg = new autoscaling.AutoScalingGroup(this, 'ASG', {
@@ -69,7 +71,7 @@ export class AwsCxRegionLatencyLabStack extends Stack {
     })
 
     
-    
+
   }
 }
 

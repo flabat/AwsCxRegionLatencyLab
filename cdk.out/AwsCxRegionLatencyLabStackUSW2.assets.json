@@ -1,7 +1,7 @@
 {
   "version": "16.0.0",
   "files": {
-    "d52ac3fd32e4e8945488fc5dd7e9e1077e41cca43e1d3fe052cc95f8a7794d81": {
+    "43917d587e12fd5e32fe8fcbf80559f5fe84dca75173d13f58842eef48fbad60": {
       "source": {
         "path": "AwsCxRegionLatencyLabStackUSW2.template.json",
         "packaging": "file"
@@ -9,7 +9,7 @@
       "destinations": {
         "528813035945-us-west-2": {
           "bucketName": "cdk-hnb659fds-assets-528813035945-us-west-2",
-          "objectKey": "d52ac3fd32e4e8945488fc5dd7e9e1077e41cca43e1d3fe052cc95f8a7794d81.json",
+          "objectKey": "43917d587e12fd5e32fe8fcbf80559f5fe84dca75173d13f58842eef48fbad60.json",
           "region": "us-west-2",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::528813035945:role/cdk-hnb659fds-file-publishing-role-528813035945-us-west-2"
         }

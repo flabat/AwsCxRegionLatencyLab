@@ -978,6 +978,18 @@
                             ":iam::aws:policy/AmazonSSMManagedInstanceCore"
                           ]
                         ]
+                      },
+                      {
+                        "Fn::Join": [
+                          "",
+                          [
+                            "arn:",
+                            {
+                              "Ref": "AWS::Partition"
+                            },
+                            ":iam::aws:policy/CloudWatchAgentAdminPolicy"
+                          ]
+                        ]
                       }
                     ]
                   }
@@ -2206,6 +2218,18 @@
                               "Ref": "AWS::Partition"
                             },
                             ":iam::aws:policy/AmazonSSMManagedInstanceCore"
+                          ]
+                        ]
+                      },
+                      {
+                        "Fn::Join": [
+                          "",
+                          [
+                            "arn:",
+                            {
+                              "Ref": "AWS::Partition"
+                            },
+                            ":iam::aws:policy/CloudWatchAgentAdminPolicy"
                           ]
                         ]
                       }
