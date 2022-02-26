@@ -1,0 +1,20 @@
+{
+  "version": "16.0.0",
+  "files": {
+    "7e99316683708ffcec2c2955a5f06667828b2143f2c9045f4ad801a823b4ccef": {
+      "source": {
+        "path": "AwsCxRegionLatencyLabStackUSE1.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "528813035945-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-528813035945-us-east-1",
+          "objectKey": "7e99316683708ffcec2c2955a5f06667828b2143f2c9045f4ad801a823b4ccef.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::528813035945:role/cdk-hnb659fds-file-publishing-role-528813035945-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
