@@ -39,7 +39,7 @@ remote_hosts=[
 port=80
  
 script_start = datetime.now()
-script_end = datetime.now() + timedelta(seconds=3600) #
+script_end = datetime.now() + timedelta(seconds=86400) #
  
 
 # Loop while less than max count or until Ctrl-C caught
