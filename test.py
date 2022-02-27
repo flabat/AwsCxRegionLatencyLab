@@ -19,7 +19,7 @@ host = None
 port = 80
  
 # Default to 10000 connections max
-maxCount = 10000
+maxCount = 1000000
 count = 0
  
 # Pass/Fail counters
